@@ -1,50 +1,31 @@
-# Welcome to your Expo app 👋
+# React Native Carousel Screen
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a single-page mobile app built using **React Native** and **TypeScript**, designed to match the provided Figma mockup. The centerpiece of the UI is an **image carousel**, styled to reflect the original design.
 
-## Get started
+## How to Run the App
 
-1. Install dependencies
+Run the app instantly via Expo Snack:  
+[Open in Snack](https://snack.expo.dev/@jpsampen/carousel-screen)
 
-   ```bash
-   npm install
-   ```
+> **Tip**: On the right panel in Snack:
+> - Click **"My Device"** and scan the QR code with the **Expo Go app** on your phone.
+> - Or choose to open the app in an **iOS**, **Android**, or **Web** emulator.
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## Tech Stack
 
-In the output, you'll find options to open the app in a
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Expo (via Snack)](https://snack.expo.dev/)
+- Carousel package (`react-native-pager-view`)
+- Figma (for layout reference)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Objective
 
-## Get a fresh project
+Recreate the layout shown in the Figma design using TypeScript and React Native. The task focuses solely on UI fidelity-no button functionality or logic implementation was required.
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**Figma Design Link:**  
+[https://www.figma.com/design/TeIwriWVH6OF0V7vUct7st/React-Native?node-id=67-6109](https://www.figma.com/design/TeIwriWVH6OF0V7vUct7st/React-Native?node-id=67-6109)
